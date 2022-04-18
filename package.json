@@ -1,0 +1,22 @@
+{
+  "name": "fake-nest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node ./build/index"
+  },
+  "author": "keyu.zhang",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^8.2.6",
+    "@nestjs/core": "^8.2.6",
+    "@nestjs/platform-express": "^8.2.6",
+    "@shopee/solar": "0.0.79",
+    "@types/express": "^4.17.13",
+    "express": "^4.17.2",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.5.4"
+  }
+}
